@@ -18,5 +18,3 @@ for r in range(repeats):
     results.append(sum(matches))
 
 print(np.mean(results))
-plt.hist(results)
-plt.show()
